@@ -54,8 +54,8 @@ def remove_dots_commas(sentence):
 
 # Function for removing punctuations at sentence level for a list of sentences
 def remove_dots_commas_sentences(list):
-    for i in list:
-        i = remove_dots_commas(i)
+    for i in range(len(list)):
+        list[i] = remove_dots_commas(list[i])
     return list
 
 
@@ -68,8 +68,8 @@ def remove_determiner(sentence):
 
 # Function for removing determiners at sentence level for a list of sentences
 def remove_determiner_sentences(list):
-    for i in list:
-        i = remove_determiner(i)
+    for i in range(len(list)):
+        list[i] = remove_determiner(list[i])
     return list
 
 
@@ -94,25 +94,30 @@ def remove_auxiliary(sentence):
     return sentence
 
 
-# Fix suffix token at sentence level
-def fix_suffix(sentence):
-    sentence = sentence.replace("'m", " am")
-    sentence = sentence.replace("'s", " is")
-    sentence = sentence.replace("'re", " are")
+# Fix suffix token at sentence level (you can use this function together with spacy tokenization)
+def fix_suffix(sentence, spacy_token=False):
+    if spacy_token is False:
+        sentence = sentence.replace("'m", " am")
+        sentence = sentence.replace("'s", " is")
+        sentence = sentence.replace("'re", " are")
+    else:
+        sentence = sentence.replace("'m", "am")
+        sentence = sentence.replace("'s", "is")
+        sentence = sentence.replace("'re", "are")
     return sentence
 
 
 # Fix suffix token at sentence level for a list of sentences
-def fix_suffix_sentences(list):
-    for i in list:
-        i = fix_suffix(i)
+def fix_suffix_sentences(list, spacy_token):
+    for i in range(len(list)):
+        list[i] = fix_suffix(list[i], spacy_token)
     return list
 
 
 # Function for removing auxiliary at sentence level for a list of sentences
 def remove_auxiliary_sentences(list):
-    for i in list:
-        i = remove_auxiliary(i)
+    for i in range(len(list)):
+        list[i] = remove_auxiliary(list[i])
     return list
 
 
@@ -124,22 +129,38 @@ def remove_connector(sentence):
 
 # Function for removing that connector at sentence level for a list of sentences
 def remove_connector_sentences(list):
-    for i in list:
-        i = remove_connector(i)
+    for i in range(len(list)):
+        list[i] = remove_connector(list[i])
     return list
 
 
 # Function for correcting dictation
-def correct_sentence_dictation(sentence):
+def correct_dictation(sentence):
     sentence = TextBlob(sentence)
     result = sentence.correct()
     return result
 
 
-# Function for remove emojis
+# Function for correcting dication for a list of sentences
+def correct_dication_sentences(list):
+    for i in range(len(list)):
+        list[i] = correct_dictation(list[i])
+    return list
+
+
+# Function for removing emojis
 def remove_emoji(sentence):
+    # removing emojis
     result = clean(sentence, no_emoji=True)
+    # returning cleaned sentence
     return result
+
+
+# Function for removing emojis for a list of sentences
+def remove_emoji_sentences(list):
+    for i in range(len(list)):
+        list[i] = remove_emoji(list[i])
+    return list
 
 
 # reading dataset from a .txt file
@@ -151,6 +172,17 @@ def read_data(filename):
             labels.append([t, 1 - t])
             sentences.append(line[1:].strip())
     return labels, sentences
+
+
+# Function for SpaCy Tokenization
+def suffix_tokenizer(list):
+    # tokenizing each sentence in the list
+    list = tokeniser.tokenise_sentences(list)
+    # merging the tokenized words back into a sentence
+    for i in range(len(list)):
+        list[i] = ' '.join(list[i])
+    # returning tokenized list
+    return list
 
 
 # train/test split
@@ -191,42 +223,43 @@ tokeniser = SpacyTokeniser()
 
 print(train_data)
 
-# tokenize for words with suffix (We can use either the SpaCy tokenizer or the fix_suffix method)
-# Note : IF you use the fix_suffix method there won't be any need to join the sentence back like in line 205, 214, and 223
-# train_data = fix_suffix_sentences(train_data)
-train_data = tokeniser.tokenise_sentences(train_data)
-# dev_data = fix_suffix_sentences(dev_data)
-dev_data = tokeniser.tokenise_sentences(dev_data)
-# test_data = fix_suffix_sentences(test_data)
-test_data = tokeniser.tokenise_sentences(test_data)
+"""
+tokenize for words with suffix (We can use either the SpaCy tokenizer or the fix_suffix method)
+Note : using both suffix_tokenizer and fix_suffix_sentences essentially allows the model to perform better
+"""
+# suffix tokenizing for training dataset
+train_data = suffix_tokenizer(train_data)
+train_data = fix_suffix_sentences(train_data, spacy_token=True)
+# suffix tokenizing for validation dataset
+dev_data = suffix_tokenizer(dev_data)
+dev_data = fix_suffix_sentences(dev_data, spacy_token=True)
+# suffix tokenizing for testing dataset
+test_data = suffix_tokenizer(test_data)
+test_data = fix_suffix_sentences(test_data, spacy_token=True)
 
-# merging the tokenized words back into a sentence
 for i in range(len(train_data)):
-    train_data[i] = ' '.join(train_data[i])
     # rewriting training sentences for parser on sentence level (Use when not using Rewriter Object)
     # (Can use remove_dots_commas in either case)
     train_data[i] = remove_dots_commas(train_data[i])
-    # train_data[i] = remove_connector(train_data[i])
-    # train_data[i] = remove_auxiliary(train_data[i])
-    # train_data[i] = remove_determiner(train_data[i])
+    train_data[i] = remove_connector(train_data[i])
+    train_data[i] = remove_auxiliary(train_data[i])
+    train_data[i] = remove_determiner(train_data[i])
 
 for i in range(len(dev_data)):
-    dev_data[i] = ' '.join(dev_data[i])
     # rewriting validation sentences for parser on sentence level (Use when not using Rewriter Object)
     # (Can use remove_dots_commas in either case)
     dev_data[i] = remove_dots_commas(dev_data[i])
-    # dev_data[i] = remove_connector(dev_data[i])
-    # dev_data[i] = remove_auxiliary(dev_data[i])
-    # dev_data[i] = remove_determiner(dev_data[i])
+    dev_data[i] = remove_connector(dev_data[i])
+    dev_data[i] = remove_auxiliary(dev_data[i])
+    dev_data[i] = remove_determiner(dev_data[i])
 
 for i in range(len(test_data)):
-    test_data[i] = ' '.join(test_data[i])
     # rewriting testing sentences for parser on sentence level (Use when not using Rewriter Object)
     # (Can use remove_dots_commas in either case)
     test_data[i] = remove_dots_commas(test_data[i])
-    # test_data[i] = remove_connector(test_data[i])
-    # test_data[i] = remove_auxiliary(test_data[i])
-    # test_data[i] = remove_determiner(test_data[i])
+    test_data[i] = remove_connector(test_data[i])
+    test_data[i] = remove_auxiliary(test_data[i])
+    test_data[i] = remove_determiner(test_data[i])
 
 print(train_data)
 
@@ -247,9 +280,9 @@ rewriter = Rewriter(
      'prepositional_phrase'])
 
 # initializing the parser
-# parser = spiders_reader
+parser = spiders_reader
 # parser = BobcatParser(model_name_or_path='C:/Users/elmm/Desktop/CQM/Model')
-parser = cups_reader
+# parser = cups_reader
 # parser = stairs_reader
 
 
@@ -258,22 +291,30 @@ raw_train_diagrams = parser.sentences2diagrams(train_data)
 raw_dev_diagrams = parser.sentences2diagrams(dev_data)
 raw_test_diagrams = parser.sentences2diagrams(test_data)
 
+"""
+Note : IF you are not using preprocessing at sentence level for rewrite rules besides remove_dots_commas, uncomment the
+rewrite lines below with the normal_form() for normalizing the diagram. Given we are using spiders_reader, we will not
+use the Rewriter object.
+"""
 # Rewriting the sentence diagrams
 for i in range(len(raw_train_diagrams)):
-    raw_train_diagrams[i] = rewriter(raw_train_diagrams[i])
-    raw_train_diagrams[i] = raw_train_diagrams[i].normal_form()
+    # raw_train_diagrams[i] = rewriter(raw_train_diagrams[i])
+    # raw_train_diagrams[i] = raw_train_diagrams[i].normal_form()
+
     # Tokenizing low occuring words in training dataset
     raw_train_diagrams[i] = replace_functor(raw_train_diagrams[i])
 
 for i in range(len(raw_dev_diagrams)):
-    raw_dev_diagrams[i] = rewriter(raw_dev_diagrams[i])
-    raw_dev_diagrams[i] = raw_dev_diagrams[i].normal_form()
+    # raw_dev_diagrams[i] = rewriter(raw_dev_diagrams[i])
+    # raw_dev_diagrams[i] = raw_dev_diagrams[i].normal_form()
+
     # Tokenizing low occuring words in validation dataset
     raw_dev_diagrams[i] = replace_functor(raw_dev_diagrams[i])
 
 for i in range(len(raw_test_diagrams)):
-    raw_test_diagrams[i] = rewriter(raw_test_diagrams[i])
-    raw_test_diagrams[i] = raw_test_diagrams[i].normal_form()
+    # raw_test_diagrams[i] = rewriter(raw_test_diagrams[i])
+    # raw_test_diagrams[i] = raw_test_diagrams[i].normal_form()
+
     # Tokenizing low occuring words in test dataset
     raw_test_diagrams[i] = replace_functor(raw_test_diagrams[i])
 
@@ -364,7 +405,7 @@ plt.show()
 test_acc = acc(model(test_circuits), test_labels)
 train_acc = acc(model(train_circuits), train_labels)
 dev_acc = acc(model(dev_circuits), dev_labels)
-cumulative_acc = (train_acc + dev_acc + test_acc)/3
+cumulative_acc = (train_acc + dev_acc + test_acc) / 3
 print('Test accuracy:', test_acc)
 print("Model summary")
 print("Train accuracy : ", train_acc)
