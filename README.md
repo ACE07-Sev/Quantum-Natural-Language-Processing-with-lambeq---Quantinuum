@@ -1,4 +1,4 @@
-# Quantum-Natural-Language-Processing-with-lambeq---Quantinuum
+_# Quantum-Natural-Language-Processing-with-lambeq---Quantinuum
 Womanium Quantum Hackathon 2022
 
 # QNLP-Quantinuum-Challenge
@@ -18,7 +18,7 @@ Current accuracies for each category sits at :
 
 Sequence Independent Spiders_reader model : Train acc = 100 , Valid acc = 91, Test acc = 81
 
-Sequence Dependent model : Train acc = , Valid acc = , Test acc = 
+Sequence Dependent cups_reader model : Train acc = 87, Valid acc = 67, Test acc = 55
 
 Link of document for reference : https://docs.google.com/document/d/1A_Wk0rcOOAFr3w6K7tsWd8YB4VOL9dXteOaea0Bgyy4/edit?usp=sharing
 
