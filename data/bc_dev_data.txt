@@ -1,0 +1,107 @@
+1  he has depression .
+1  she has depression .
+1  he is upset .
+1  she is upset .
+1  I am upset .
+1  I am depressed .
+1  I have depression .
+1  I had depression .
+1  she's depressed .
+1  she is very depressed .
+1  he is depressed .
+1  they are depressed .
+1  you're depressed .
+1  I am sad about something .
+1  I am crying .
+1  she is crying .
+1  he is crying .
+1  we all felt sad about his depression .
+1  the depressing and sad story made us cry .
+1  he cries over his sad life .
+1  we must try to forget this sad affair .
+1  life is a depressing dream .
+0  I smooched with him on the dance floor .
+0  she is happy to dance on her points .
+0  he is happy to see her dance .
+0  they are feeling great because of their happy life .
+0  they have partnered up for the lovely dance .
+1  you are sad about it .
+1  you were just sad .
+1  I'm sorry to depress you .
+1  the little boy fell over and started to cry .
+1  she uttered a wordless cry of sadness .
+1  all of a sudden we heard a depressing cry .
+1  I hated to make her sad .
+0  the man was doing amazing .
+1  they kicked him out for being depressed at work .
+1  he was sad and drunk at the end of the party .
+0  I should add that we are very lucky .
+0  you were lucky you spotted the danger in time .
+0  she's a lucky woman .
+0  I feel lucky today .
+1  he was deliberately trying to make her sad .
+1  this decision is likely to upset a lot of people .
+1  he was upset .
+1  she was upset for crying .
+1  I knew he was upset .
+0  I am feeling amazing .
+1  it is depressing to drive in a thick fog .
+1  it came as something of a dream .
+0  I had a great surprise .
+0  she jumped back with a little yelp of surprise .
+0  it came as a complete surprise .
+1  I have a right to be upset .
+1  no wonder he was upset in the stair room .
+1  I was glad to awake from such a nightmare .
+1  she was having a sad nightmare .
+1  I hate to see a nightmare because it makes me upset .
+0  I am happy to see you .
+0  a happy heart makes a blooming visage .
+0  he is truly happy who makes others happy .
+0  happy is the man who is living by his hobby .
+1  her anxiety mounted month by month .
+1  I have anxiety .
+1  sad woman had anxiety .
+1  he has anxiety because he's alone .
+1  my heart bled for the poor unhappy children .
+1  I am unhappy in my life .
+1  she's unhappy because he upset her .
+1  there are unconfirmed reports he tried to commit suicide .
+1  all the evidence points to suicide .
+1  the suicide note cut off any reason for investigation .
+1  I feel suicidal because I am depressed .
+1  she committed suiced today .
+1  he killed himself today .
+1  she killed herself today .
+1  she cries herself to sleep .
+1  he cries himself to sleep .
+1  man kills himself .
+1  woman kills herself .
+0  a wedding is a joyful celebration of love .
+0  it was a joyful reunion of all the family .
+0  I had a joyful feeling .
+1  my baby gets upset when I leave the room .
+1  he was too upset to be rational .
+1  I was angry and upset .
+1  he would be upset .
+1  he was visibly upset .
+0  she was joyful of her good result .
+0  the meeting between the two families was a joyful one .
+0  I am glad about his new job .
+0  she was glad to see her love .
+0  I was glad to have a success .
+0  to be of use in the world is the only way to be happy .
+1  people are fearful of rising crime in the area .
+1  people are fearful because of rising depression .
+1  I am fearful for my life .
+1  he suffered agonies of remorse .
+1  she suffered agonies of remorse .
+1  I suffered agonies of remorse .
+1  she was overwhelmed by a surge of remorse .
+1  he felt remorse for his crimes .
+0  he smiles when he sees himself .
+0  you need to be a good man .
+0  he loves to listen at the keyhole of others .
+0  he is a great joy to listen to .
+0  we are going to listen to a great report .
+0  she was cooking a great fish as a treat .

@@ -1,0 +1,176 @@
+1  he was overtaken by the depression that he dreaded .
+1  it is a sad and depressing world .
+1  I am sad to say that I regretted my decision  .
+1  he's crying in the shower .
+1  the rainy days always depress me .
+1  they're crying in their room .
+1  they're crying in their shower .
+1  he was crying in the shower alone .
+1  she's crying alone in her room .
+1  I am crying because I am sad .
+1  this drug helps the depressed man .
+1  it would really depress me if I did .
+1  the depressed person was very sad and lonely .
+1  I was depressed by the thought of her crying .
+1  I was overwhelmed by feelings of depression .
+1  depression is caused by holding in anger .
+1  I realised I was becoming increasingly depressed and sad .
+1  the thought of taking the exam again depressed him .
+1  he was sad and confused .
+1  he was depressed .
+1  she was going to kill herself .
+1  she was hurt .
+1  I cry because I failed my exam .
+1  she cries because she failed .
+1  he has depression .
+1  she has depression .
+1  he is upset .
+1  she is upset .
+1  I am upset .
+1  I am depressed .
+1  I have depression .
+1  I had depression .
+1  she's depressed .
+1  she is very depressed .
+1  he is depressed .
+1  they are depressed .
+1  you're depressed .
+1  I am sad about something .
+1  I am crying .
+1  she is crying .
+1  he is crying .
+1  he's crying because he failed his exam .
+1  some babies cry during the night .
+1  her eyes expressed deep sadness .
+1  she expressed sadness .
+1  he expressed sadness .
+1  much sadness was occasioned around the area by the news of her sudden death .
+1  he starves for friendship .
+1  they lived a lonely life .
+1  he felt lonely after he buried his good friend .
+1  I feel lonely without you .
+1  I feel lonely .
+1  she was desperately lonely .
+1  she started to cry again .
+1  she began to cry .
+1  she started to cry .
+1  she looked about to cry .
+1  she was angery and sad .
+1  he was very depressed and angry .
+1  sorrow and rage pierced him to the core .
+1  I mourn him .
+1  I feel very lonely .
+1  I am sad and lonely .
+1  I feel so lonely .
+1  he told me that he was lonely .
+1  he said that he was lonely .
+1  she was grieving .
+1  he was sad .
+1  they are depressed .
+1  he seemed anxious .
+1  he felt very lonely .
+1  she was very sad .
+1  sad man cries in his room .
+1  sorrowful woman shed tears .
+1  man killed himself .
+1  woman commited suicide .
+1  she commited suicide in her room .
+1  man commited suicide in his room .
+1  life is very depressing .
+1  I am suicidal .
+1  I cry in my sleep .
+1  he was in a confused state of mind .
+1  depression can be traced to holding in anger .
+1  it is a sad and depressed world .
+1  woman began to cry .
+1  she was filled with anger and sorrow .
+0  I hope you two are happy together .
+0  you are happy .
+0  I was very happy .
+0  I am very happy .
+0  she was happy .
+0  she would like to have so much happiness .
+0  They laugh together .
+0  I hope to have a love like yours .
+0  it was a good deal .
+0  he is a good man .
+0  the man was singing happy songs .
+0  you are laughing .
+0  I am laughing .
+0  she is laughing with happiness .
+0  I am happy to talk .
+0  she recalled her happy dream with him .
+0  I treat my family good .
+0  you are doing good .
+0  she is a good woman .
+0  he is a very good man .
+0  I am a good person .
+0  they are a good person .
+1  he committed suicide yesterday .
+1  she committed suicide today .
+1  depressed man committed suicide .
+0  you should treat him good .
+0  we should treat animals good .
+0  I consider him a good man .
+0  you have to laugh more .
+0  you should consider smiling .
+0  he loves to play .
+0  the boys wanted to play .
+0  I love to play .
+0  she loves to play games .
+0  happy woman is smiling .
+0  happy man is laughing with happiness .
+0  he loves the figure from the board .
+0  a happy man was standing at the bus stop .
+0  I share a happy dream with my mom .
+0  we share the love .
+0  I was happy to see him .
+0  she loves him very much .
+0  my life is like a happy dream .
+0  this man is very lovely .
+0  he was a lovely man .
+0  I am quite happy to see you .
+0  he speculated that this might lead to a success .
+0  the road will lead you back to success .
+0  she braced herself to lead a successful life .
+0  he is a successful man .
+0  this suit is perfect for me .
+0  she is the perfect woman .
+0  we love to see the perfect show .
+0  I owe you for helping me .
+0  he helps people every day .
+0  he is very humble about his success .
+0  we must allow for his success .
+0  they help people every day .
+1  I am a failure .
+1  he felt like a failure .
+1  she felt like a failure at her school .
+0  I help my friends to move .
+0  she helps her friends .
+0  they appreciate home .
+0  we would appreciate it .
+0  she appreciates it .
+0  he appreciates the help .
+0  man cooks a lovely dinner .
+0  man is happy .
+0  man is smiling .
+0  man is laughing .
+0  I am cooking a good meal .
+0  life is a lovely dream .
+0  I saw my lovely mom in a dream .
+0  woman bakes tasty meal .
+0  man runs software .
+0  person prepares great meal .
+0  I am feeling great .
+0  she was feeling great because of her dream .
+0  I am very happy for my great sister .
+0  person cooks great meal .
+0  she was joyful .
+0  he was very joyful with his success .
+0  I am very happy and joyful .
+0  the great woman makes dinner .
+0  happy man runs outside .
+0  person was very kind .
+0  woman was kind .
+0  person is kind and helps people .
+0  kind woman helps student .

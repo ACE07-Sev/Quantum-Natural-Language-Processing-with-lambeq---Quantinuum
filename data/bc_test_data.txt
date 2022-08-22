@@ -1,0 +1,40 @@
+0  she read the love letter .
+0  I read the love letter .
+0  she writes great love letters .
+0  it is great to dance .
+0  someone laughs .
+0  we all like to laugh .
+1  I fell into misery .
+1  she committed suicide  .
+1  he committed suicide because of depression .
+1  she had attempted suicide .
+0  we had to smile for the photo .
+0  she was happy to take a photo .
+1  we were shocked by his attempted suicide .
+1  her suicide attempt was really a cry for help .
+1  he died without leaving a suicide note .
+1  I will try not to disappoint you next time .
+1  he certainly did not disappoint the audience .
+1  she had repeatedly threatened to commit suicide .
+1  her suffering distressed her into committing suicide .
+0  he was a successful man .
+1  she was ashamed of her background .
+1  I feel ashamed of my failure .
+1  he feels like a failure .
+0  I want to dance with her .
+0  he wants to dance .
+0  she wants to dance with him .
+0  she put a smile on her face .
+0  I smile every day .
+1  I got the feeling he was upset about something .
+1  she nuzzled his neck the way he did to her when she was upset .
+1  I am sorry they upset you .
+1  she knew that she would disappoint him .
+1  she knew he was depressing .
+1  her decision to cancel the concert is bound to disappoint her fans .
+1  they constantly disappoint the young .
+1  man committed mass suicide .
+1  people commit suicide .
+1  she committed suicide three days later .
+1  he has exhibited symptoms of anxiety .
+1  I hate to see you upset .
