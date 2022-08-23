@@ -11,7 +11,7 @@ Members :
 
 Amirali Malekani Nezhad (Email : amiralimlk07@gmail.com, Github username : ACE7-SEV, https://github.com/ACE07-Sev)
 
-Yousra Bouakba (Email : bouakbayousra@gmailcom, Github username : yousrabou, https://github.com/yousrabou)
+Yousra Bouakba (Email : bouakbayousra@gmailcom, Github username : youyaQ#8253, https://github.com/yousrabou)
 
 Vishal Mandal (Email : vishalmandal091@gmail.com, Github username : Vishal Mandal#7391, https://github.com/Vishal-Mandal
 
