@@ -8,7 +8,18 @@ Quantum Natural Language Processing with Lambeq Challenge by Quantinuum
 Group : QLinguists
 
 Members :
-Amirali Malekani Nezhad, Yousra Bouakba, Vishal Mandal, Mostafa Shabani, Rishab Ghosh, Pavan Sai Kumar Singavarapu
+
+Amirali Malekani Nezhad (Email : amiralimlk07@gmail.com, Github username : ACE7-SEV, https://github.com/ACE07-Sev)
+
+Yousra Bouakba
+
+Vishal Mandal (Email : vishalmandal091@gmail.com, Github username : Vishal Mandal#7391, https://github.com/Vishal-Mandal
+
+Mostafa Shabani (Email : iqcdi.mostafashabani@gmail.com, Github username : Mostafa#5738, https://github.com/Spintronic6889)
+
+Rishab Ghosh
+
+Pavan Sai Kumar Singavarapu
 
 ## Model Summary
 
@@ -16,7 +27,7 @@ The model provided is chosen based on the experiments run with a wide array of r
 
 Current accuracies for each category sits at :
 
-Sequence Independent Spiders_reader model : Train acc = 100 , Valid acc = 91, Test acc = 81
+Sequence Independent Spiders_reader model : Train acc = 100 , Valid acc = 93, Test acc = 84
 
 Sequence Dependent cups_reader model : Train acc = 87, Valid acc = 67, Test acc = 55
 
