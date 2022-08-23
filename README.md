@@ -9,17 +9,17 @@ Group : QLinguists
 
 Members :
 
-Amirali Malekani Nezhad (Email : amiralimlk07@gmail.com, Github username : ACE7-SEV, https://github.com/ACE07-Sev)
+Amirali Malekani Nezhad (Email : amiralimlk07@gmail.com, Github username and dicord ID: A.C.E07#8672, https://github.com/ACE07-Sev)
 
-Yousra Bouakba (Email : bouakbayousra@gmailcom, Github username : youyaQ#8253, https://github.com/yousrabou)
+Yousra Bouakba (Email : bouakbayousra@gmailcom, Github username and dicord ID : youyaQ#8253, https://github.com/yousrabou)
 
-Vishal Mandal (Email : vishalmandal091@gmail.com, Github username : Vishal Mandal#7391, https://github.com/Vishal-Mandal
+Vishal Mandal (Email : vishalmandal091@gmail.com, Github username and dicord ID : Vishal Mandal#7391, https://github.com/Vishal-Mandal
 
-Mostafa Shabani (Email : iqcdi.mostafashabani@gmail.com, Github username : Mostafa#5738, https://github.com/Spintronic6889)
+Mostafa Shabani (Email : iqcdi.mostafashabani@gmail.com, Github username and dicord ID : Mostafa#5738, https://github.com/Spintronic6889)
 
 Rishab Ghosh
 
-Pavan Sai Kumar Singavarapu
+Pavan Sai Kumar Singavarapu (Email : pavan_sai_kumar.singavarapu@mailbox.tu-dresden.de, Github username and dicord ID : Singavarapu#7048, https://github.com/spsaikumar)
 
 ## Model Summary
 
