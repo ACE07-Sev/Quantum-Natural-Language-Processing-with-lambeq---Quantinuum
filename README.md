@@ -11,7 +11,7 @@ Members :
 
 Amirali Malekani Nezhad (Email : amiralimlk07@gmail.com, Github username and dicord ID: A.C.E07#8672, https://github.com/ACE07-Sev)
 
-Yousra Bouakba (Email : bouakbayousra@gmailcom, Github username and dicord ID : youyaQ#8253, https://github.com/yousrabou)
+Yousra Bouakba (Email : bouakbayousra@gmail.com, Github username and dicord ID : youyaQ#8253, https://github.com/yousrabou)
 
 Vishal Mandal (Email : vishalmandal091@gmail.com, Github username and dicord ID : Vishal Mandal#7391, https://github.com/Vishal-Mandal
 
