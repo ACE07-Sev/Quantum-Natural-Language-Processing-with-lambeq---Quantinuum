@@ -1,3 +1,7 @@
+from __future__ import annotations
+
+from lambeq import IQPAnsatz
+
 from DepCircuit import(Sim13ansatz as Sim13, Sim14ansatz as Sim14, Sim15ansatz as Sim15)
 
 """
@@ -6,7 +10,6 @@ Circuit Ansatz
 A circuit ansatz is used to convert a DisCoCat diagram into a quantum circuit.
 
 """
-from __future__ import annotations
 
 __all__ = ['CircuitAnsatz', 'IQPAnsatz']
 
