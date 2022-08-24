@@ -26,6 +26,10 @@ from lambeq import SpacyTokeniser
 from pytket.circuit.display import render_circuit_jupyter
 from pytket.extensions.qiskit import AerBackend
 
+from DepAnsatz import (Sim13Ansatz as Sim13)
+
+print("packages are imported")
+
 warnings.filterwarnings("ignore")
 os.environ["TOKENIZERS_PARALLELISM"] = "false"
 spacy.load('en_core_web_sm')
@@ -335,6 +339,10 @@ train_diagrams[0].draw()
 # initializing the ansatz for generating the circuit (1 layer, 3 qubits) (output : 1 qubit)
 ansatz = IQPAnsatz({AtomicType.NOUN: 1, AtomicType.SENTENCE: 1, AtomicType.PREPOSITIONAL_PHRASE: 1}, n_layers=1,
                    n_single_qubit_params=3)
+
+# initializing the ansatz for generating the circuit (2 layer, 3 qubits) (output : 1 qubit)
+ansatz_original = Sim13({AtomicType.NOUN: 1, AtomicType.SENTENCE: 1, AtomicType.PREPOSITIONAL_PHRASE: 1}, n_layers=5,
+                        n_single_qubit_params=3)
 
 # train/test circuits
 train_circuits = [ansatz(diagram) for diagram in train_diagrams]
