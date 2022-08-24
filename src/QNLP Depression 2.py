@@ -6,6 +6,10 @@ from discopy.rigid import Functor
 from textblob import TextBlob
 from cleantext import clean
 
+from DepAnsatz import (Sim13Ansatz as Sim13)
+
+print("packages are imported")
+
 
 # Function for replacing the unknown word(s) with <unk> token
 def replace(box):
@@ -311,6 +315,11 @@ diagram2 = remove_cups(replaced_diag2)
 # initializing the ansatz for generating the circuit (1 layer, 3 qubits) (output : 1 qubit)
 ansatz = IQPAnsatz({AtomicType.NOUN: 1, AtomicType.SENTENCE: 1, AtomicType.PREPOSITIONAL_PHRASE: 1}, n_layers=1,
                    n_single_qubit_params=3)
+
+# initializing the ansatz for generating the circuit (2 layer, 3 qubits) (output : 1 qubit)
+ansatz_original = Sim13({AtomicType.NOUN: 1, AtomicType.SENTENCE: 1, AtomicType.PREPOSITIONAL_PHRASE: 1}, n_layers=5,
+                        n_single_qubit_params=3)
+
 # converting the diagram to a circuit
 diagram = ansatz(diagram)
 diagram2 = ansatz(diagram2)
