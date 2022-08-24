@@ -23,7 +23,7 @@ Pavan Sai Kumar Singavarapu (Email : pavan_sai_kumar.singavarapu@mailbox.tu-dres
 
 ## Model Summary
 
-The model provided is chosen based on the experiments run with a wide array of readers, preprocessing function, rewrite rules and ansatz parameters. The document below summarises all the experiments run based on including and excluding certain features such as UNK tokenization, sentence level preprocessing, and syntax rewriting at diagram level. We have provided two models based on sequence dependency.
+The model provided is chosen based on the experiments run with a wide array of readers, preprocessing function, rewrite rules and ansatz parameters as well as ansatz classes themselves (inclusive of subclassesing and writing an original ansatz class). The document below summarises all the experiments run based on including and excluding certain features such as UNK tokenization, sentence level preprocessing, and syntax rewriting at diagram level. We have provided two models based on sequence dependency.
 
 Current accuracies for each category sits at :
 
