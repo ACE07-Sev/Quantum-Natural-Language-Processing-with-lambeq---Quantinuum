@@ -17,7 +17,7 @@ Vishal Mandal (Email : vishalmandal091@gmail.com, Github username and dicord ID 
 
 Mostafa Shabani (Email : iqcdi.mostafashabani@gmail.com, Github username and dicord ID : Mostafa#5738, https://github.com/Spintronic6889)
 
-Rishab Ghosh
+Rishab Ghosh (Email : rishabghosh.qc@gmail.com, Github username and discord ID : Rishab/Ron#7687)
 
 Pavan Sai Kumar Singavarapu (Email : pavan_sai_kumar.singavarapu@mailbox.tu-dresden.de, Github username and dicord ID : Singavarapu#7048, https://github.com/spsaikumar)
 
